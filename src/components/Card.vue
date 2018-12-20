@@ -29,7 +29,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    margin: 2rem auto;
 
     .card-title {
       font-size: 1.25rem;
