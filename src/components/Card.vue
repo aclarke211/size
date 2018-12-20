@@ -1,8 +1,8 @@
 <template>
-  <a class="card__container" :href="url">
+  <a class="card__container" :href="cardContent.url" v-if="cardContent">
     <ImageModule />
-    <p class="card-title">{{ cardTitle }}</p>
-    <CTAModule />
+    <p class="card-title">{{ cardContent.text }}</p>
+    <CTAModule :ctas="cardContent.ctas" />
   </a>
 </template>
 
@@ -12,17 +12,14 @@ import CTAModule from '@/modules/CTAModule.vue';
 
 export default {
   name: 'Card',
-  data: () => ({
-    cardTitle: 'SHOE NAME',
-  }),
   components: {
     ImageModule,
     CTAModule,
   },
   props: {
-    url: {
-      type: String,
-      default: '#',
+    cardContent: {
+      type: [Object, Array],
+      default: () => [],
     },
   },
 };

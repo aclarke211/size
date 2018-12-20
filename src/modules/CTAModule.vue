@@ -1,7 +1,7 @@
 <template>
-  <div class="ctas__container">
-    <a class="cta" v-for="(button, key) in buttons" :key="key" :href="button.url">
-      {{ button.text }}
+  <div class="ctas__container" v-if="ctas">
+    <a class="cta" v-for="(cta, key) in ctas" :key="key" :href="cta.url">
+      {{ cta.text }}
     </a>
   </div>
 </template>
@@ -11,15 +11,13 @@
 export default {
   name: 'CTAModule',
   data: () => ({
-    buttons: [{
-      text: 'New CTA',
-      url: '/testCTA',
-    },
-    {
-      text: 'New CTA 2',
-      url: '/testCTA+2',
-    }],
+    buttons: [],
   }),
+  props: {
+    ctas: {
+      type: Array,
+    },
+  },
 };
 </script>
 
