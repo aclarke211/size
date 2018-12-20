@@ -7,6 +7,7 @@
 <style lang="scss">
 html {
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
