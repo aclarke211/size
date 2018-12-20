@@ -1,6 +1,8 @@
 <template>
   <div class="ctas__container">
-    <a class="cta" v-for="(button, key) in buttons" :key="key" :href="button.url">{{ button.text }}</a>
+    <a class="cta" v-for="(button, key) in buttons" :key="key" :href="button.url">
+      {{ button.text }}
+    </a>
   </div>
 </template>
 
