@@ -1,9 +1,9 @@
 <template>
   <div class="img__container">
     <picture class="img__outer">
-      <source srcset="https://via.placeholder.com/640x800/d9efff/?text=Mobile+(640x800px)"
+      <source :srcset="images.mobile"
         media="(max-width: 767px)">
-        <img class="img" src="https://via.placeholder.com/1920x800/ffe9b2/?text=Desktop+(1920x800px)" />
+        <img class="img" :src="images.desktop" />
     </picture>
   </div>
 </template>
@@ -11,6 +11,9 @@
 <script>
 export default {
   name: 'ImageModule',
+  props: {
+    images: Object,
+  },
 };
 </script>
 
