@@ -1,9 +1,9 @@
 <template>
-  <div class="card__container">
+  <a class="card__container" :href="url">
     <ImageModule />
     <p class="card-title">{{ cardTitle }}</p>
     <CTAModule />
-  </div>
+  </a>
 </template>
 
 <script>
@@ -18,6 +18,12 @@ export default {
   components: {
     ImageModule,
     CTAModule,
+  },
+  props: {
+    url: {
+      type: String,
+      default: '#',
+    },
   },
 };
 </script>
