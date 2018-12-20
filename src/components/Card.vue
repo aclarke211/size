@@ -2,11 +2,13 @@
   <div class="card__container">
     <ImageModule />
     <p class="card-title">{{ cardTitle }}</p>
+    <CTAModule />
   </div>
 </template>
 
 <script>
 import ImageModule from '@/modules/ImageModule.vue';
+import CTAModule from '@/modules/CTAModule.vue';
 
 export default {
   name: 'Card',
@@ -15,6 +17,7 @@ export default {
   }),
   components: {
     ImageModule,
+    CTAModule,
   },
 };
 </script>
