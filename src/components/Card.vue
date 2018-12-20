@@ -20,10 +20,13 @@ export default {
 </script>
 
 <style lang="scss">
+  @import '@/static/css/base/_mixins.scss';
+
   .card__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
 
     .card-title {
       font-size: 1.25rem;
