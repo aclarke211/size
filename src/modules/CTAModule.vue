@@ -37,6 +37,7 @@ export default {
       font-size: 1rem;
       border-bottom: 2px solid black;
       text-decoration: none;
+      padding-bottom: .25rem;
       transition: all .5s;
 
       @include desktop {
