@@ -16,6 +16,7 @@ export default {
   props: {
     ctas: {
       type: Array,
+      default: () => [],
     },
   },
 };
