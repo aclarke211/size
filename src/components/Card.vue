@@ -2,19 +2,19 @@
   <a class="card__container" :href="cardContent.url" v-if="cardContent">
     <ImageModule />
     <p class="card-title">{{ cardContent.text }}</p>
-    <CTAModule :ctas="cardContent.ctas" />
+    <CTAsModule :ctas="cardContent.ctas" />
   </a>
 </template>
 
 <script>
 import ImageModule from '@/modules/ImageModule.vue';
-import CTAModule from '@/modules/CTAModule.vue';
+import CTAsModule from '@/modules/CTAsModule.vue';
 
 export default {
   name: 'Card',
   components: {
     ImageModule,
-    CTAModule,
+    CTAsModule,
   },
   props: {
     cardContent: {

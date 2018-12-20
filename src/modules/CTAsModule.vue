@@ -9,7 +9,7 @@
 <script>
 
 export default {
-  name: 'CTAModule',
+  name: 'CTAsModule',
   data: () => ({
     buttons: [],
   }),
