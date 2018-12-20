@@ -1,8 +1,25 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view v-if="content" :content="content"/>
   </div>
 </template>
+
+<script>
+import getJSON from '@steriley/jd-components/sfc/utils/fetch';
+
+export default {
+  data: () => ({
+    content: false,
+  }),
+
+  mounted() {
+    getJSON('content').then((json) => {
+      this.content = json;
+    });
+  },
+};
+
+</script>
 
 <style lang="scss">
 html {

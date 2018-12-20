@@ -1,8 +1,8 @@
 <template>
-  <a class="card__container" :href="cardContent.url" v-if="cardContent">
-    <ImageModule :images="cardContent.images" />
-    <p class="card-title">{{ cardContent.text }}</p>
-    <CTAsModule :ctas="cardContent.ctas" />
+  <a class="card__container" :href="url">
+    <ImageModule :images="images" />
+    <p class="card-title">{{ text }}</p>
+    <CTAsModule :ctas="ctas" />
   </a>
 </template>
 
@@ -17,10 +17,10 @@ export default {
     CTAsModule,
   },
   props: {
-    cardContent: {
-      type: [Object, Array],
-      default: () => [],
-    },
+    url: String,
+    images: Object,
+    text: String,
+    ctas: Array,
   },
 };
 </script>
