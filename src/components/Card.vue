@@ -1,6 +1,6 @@
 <template>
   <a class="card__container" :href="cardContent.url" v-if="cardContent">
-    <ImageModule />
+    <ImageModule :images="cardContent.images" />
     <p class="card-title">{{ cardContent.text }}</p>
     <CTAsModule :ctas="cardContent.ctas" />
   </a>
@@ -33,6 +33,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     margin: 2rem auto;
+    text-decoration: none;
 
     .card-title {
       font-size: 1.25rem;
