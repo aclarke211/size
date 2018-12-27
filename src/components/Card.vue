@@ -1,47 +1,49 @@
 <template>
   <a class="card__container" :href="url">
-    <ImageModule :images="images" />
+    <ImageModule :images="images"/>
     <p class="card-title">{{ text }}</p>
-    <CTAsModule :ctas="ctas" />
+    <CTAsModule :ctas="ctas"/>
   </a>
 </template>
 
 <script>
-import ImageModule from '@/modules/ImageModule.vue';
-import CTAsModule from '@/modules/CTAsModule.vue';
+import ImageModule from "@/modules/ImageModule.vue";
+import CTAsModule from "@/modules/CTAsModule.vue";
 
 export default {
-  name: 'Card',
+  name: "Card",
   components: {
     ImageModule,
-    CTAsModule,
+    CTAsModule
   },
   props: {
     url: String,
     images: Object,
     text: String,
-    ctas: Array,
-  },
+    ctas: Array
+  }
 };
 </script>
 
 <style lang="scss">
-  @import '@/static/css/base/_mixins.scss';
+@import "@/static/css/base/_mixins.scss";
 
-  .card__container {
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  text-decoration: none;
+  max-width: 1160px;
+
+  .card-title {
+    font-size: 1.25rem;
+    padding: 1.25rem 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 2rem auto;
-    text-decoration: none;
-
-    .card-title {
-      font-size: 1.25rem;
-      padding: 1.25rem 0;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
+    text-align: center;
+    color: black;
   }
+}
 </style>
