@@ -7,26 +7,26 @@
 </template>
 
 <script>
-import ImageModule from "@/modules/ImageModule.vue";
-import CTAsModule from "@/modules/CTAsModule.vue";
+import ImageModule from '@/modules/ImageModule.vue';
+import CTAsModule from '@/modules/CTAsModule.vue';
 
 export default {
-  name: "Card",
+  name: 'Card',
   components: {
     ImageModule,
-    CTAsModule
+    CTAsModule,
   },
   props: {
     url: String,
     images: Object,
     text: String,
-    ctas: Array
-  }
+    ctas: Array,
+  },
 };
 </script>
 
 <style lang="scss">
-@import "@/static/css/base/_mixins.scss";
+@import '@/static/css/base/_mixins.scss';
 
 .card__container {
   display: flex;
