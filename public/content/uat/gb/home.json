@@ -30,7 +30,8 @@
           "mobile": "https://via.placeholder.com/640x800/d9efff/?text=Mobile+(640x800px)",
           "desktop": "https://via.placeholder.com/1920x800/ffe9b2/?text=Desktop+(1920x800px)"
         },
-        "ctas": [{
+        "ctas": [
+          {
             "text": "New CTA",
             "url": "/testCTA"
           },
@@ -39,6 +40,25 @@
             "url": "/testCTA+2"
           }
         ]
+      }
+    },
+    {
+      "_component": "InteractiveBanner",
+      "_identifier": "interactive-banner",
+      "content": {
+        "images" : [
+          {
+            "mobile": "https://i1.adis.ws/i/jpl/desktop-top-and-bottom-banner-58cd2a600811ceb1f6146d273469d9b1?qlt=60",
+            "desktop": "https://i1.adis.ws/i/jpl/desktop-top-and-bottom-banner-58cd2a600811ceb1f6146d273469d9b1?qlt=60"
+          }
+        ],
+        "text": {
+          "isShowing": false,
+          "value": "This is the example text..."
+        },
+        "button": {
+          "text": "Read More"
+        }
       }
     }
   ]
