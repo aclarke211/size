@@ -10,9 +10,6 @@
 
 export default {
   name: 'CTAsModule',
-  data: () => ({
-    buttons: [],
-  }),
   props: {
     ctas: {
       type: Array,
