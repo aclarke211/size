@@ -8,6 +8,7 @@
 // @ is an alias to /src
 import ContentLoop from '@jdplc/jd-components/sfc/ContentLoop.vue';
 import Card from '@/components/Card.vue';
+import InteractiveBanner from '@/components/InteractiveBanner.vue';
 
 export default {
   name: 'home',
@@ -23,6 +24,7 @@ export default {
   data: () => ({
     componentDefs: {
       Card,
+      InteractiveBanner,
     },
   }),
 };

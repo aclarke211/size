@@ -51,6 +51,10 @@ export default {
 </script>
 
 <style lang="scss">
+#app {
+  text-align: center;
+}
+
 html {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;

@@ -1,6 +1,6 @@
 <template>
   <div class="ctas__container" v-if="ctas">
-    <a class="cta" v-for="(cta, key) in ctas" :key="key" :href="cta.url">
+    <a class="cta" v-for="(cta, index) in ctas" :key="index" :href="cta.url">
       {{ cta.text }}
     </a>
   </div>
