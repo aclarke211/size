@@ -35,6 +35,11 @@ export default {
   margin: 2rem auto;
   text-decoration: none;
   max-width: 1160px;
+  transition: opacity .5s;
+
+  &:hover {
+    opacity: .7;
+  }
 
   .card-title {
     font-size: 1.25rem;
