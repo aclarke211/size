@@ -35,7 +35,6 @@ export default {
       }
 
       return getJSON(this.$route.name).then((json) => {
-        console.info(json);
         this.content = json;
       });
     },
