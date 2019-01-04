@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@jdplc/jd-components": "^1.0.3",
+    "@jdplc/json-editor": "^1.0.0",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
