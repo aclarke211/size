@@ -4,7 +4,9 @@
       <ImageModule v-for="(imageVariableInLoop, index) in images" :key="index"
       :images="imageVariableInLoop" />
     </div>
-    <p class="text" v-if="text.isShowing">{{ text.value }}</p>
+
+      <p class="text" :style="inlineStyles">{{ text.value }}</p>
+
     <div class="toggle-btn" @click="toggleButton()" > {{ button.text }} </div>
   </div>
 </template>
@@ -25,6 +27,18 @@ export default {
   methods: {
     toggleButton() {
       this.text.isShowing = !this.text.isShowing;
+    },
+  },
+  computed: {
+    inlineStyles() {
+      const styles = {};
+
+      if (this.text.isShowing === true) {
+        styles.maxHeight = '1000px';
+        styles.opacity = 1;
+      }
+
+      return styles;
     },
   },
 };
@@ -52,6 +66,11 @@ export default {
     .text {
       margin: 1rem 0 0;
       padding: 0;
+      transition: all 1.5s;
+      height: auto;
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
     }
 
     .toggle-btn {
