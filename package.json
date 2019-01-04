@@ -9,7 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "@steriley/jd-components": "^0.2.42",
+    "@jdplc/jd-components": "^1.0.3",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },

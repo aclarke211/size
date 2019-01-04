@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import getJSON from '@steriley/jd-components/sfc/utils/fetch';
+import getJSON from '@jdplc/jd-components/sfc/utils/fetch';
 
 export default {
   data: () => ({

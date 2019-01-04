@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import ContentLoop from '@steriley/jd-components/sfc/ContentLoop.vue';
+import ContentLoop from '@jdplc/jd-components/sfc/ContentLoop.vue';
 import Card from '@/components/Card.vue';
 
 export default {
