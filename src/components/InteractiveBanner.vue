@@ -45,7 +45,17 @@ export default {
       .img__container {
         width: 15rem;
         padding-top: 10%;
+        margin: 1rem;
       }
+    }
+
+    .text {
+      margin: 1rem 0 0;
+      padding: 0;
+    }
+
+    .toggle-btn {
+      margin-top: 1rem;
     }
   }
 </style>
