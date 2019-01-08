@@ -1,6 +1,7 @@
 <template>
   <div class="timeline__container">
-    <div class="timeline-product__container" v-for="(product, key) in products" :key="key" @click="changeRouteToShowProductDetails()">
+    <div class="timeline-product__container" v-for="(product, key) in products" :key="key"
+    @click="changeRouteToShowProductDetails()">
        <TimelineProduct :productContent="product" />
     </div>
   </div>
@@ -38,6 +39,7 @@ export default {
       flex: 0 0 33.33%;
       position: relative;
       display: block;
+      cursor: pointer;
     }
   }
 </style>

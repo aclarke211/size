@@ -24,8 +24,8 @@ export default {
       };
 
       return imgs;
-    }
-  }
+    },
+  },
 };
 </script>
 

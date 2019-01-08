@@ -15,35 +15,35 @@
 </template>
 
 <script>
-import ImageModule from "@/modules/ImageModule.vue";
+import ImageModule from '@/modules/ImageModule.vue';
 
 export default {
-  name: "InteractiveBanner",
+  name: 'InteractiveBanner',
   props: {
     images: Array,
     text: Object,
-    button: Object
+    button: Object,
   },
   components: {
-    ImageModule
+    ImageModule,
   },
   methods: {
     toggleButton() {
       this.text.isShowing = !this.text.isShowing;
-    }
+    },
   },
   computed: {
     inlineStyles() {
       const styles = {};
 
       if (this.text.isShowing === true) {
-        styles.maxHeight = "1000px";
+        styles.maxHeight = '1000px';
         styles.opacity = 1;
       }
 
       return styles;
-    }
-  }
+    },
+  },
 };
 </script>
 
