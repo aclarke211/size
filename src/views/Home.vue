@@ -9,6 +9,7 @@
 import ContentLoop from '@jdplc/jd-components/sfc/ContentLoop.vue';
 import Card from '@/components/Card.vue';
 import InteractiveBanner from '@/components/InteractiveBanner.vue';
+import Timeline from '@/components/Timeline.vue';
 
 export default {
   name: 'home',
@@ -25,6 +26,7 @@ export default {
     componentDefs: {
       Card,
       InteractiveBanner,
+      Timeline,
     },
   }),
 };
