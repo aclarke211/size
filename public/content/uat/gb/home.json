@@ -6,8 +6,16 @@
       "content": {
         "images" : [
           {
-            "mobile": "https://i1.adis.ws/i/jpl/desktop-top-and-bottom-banner-58cd2a600811ceb1f6146d273469d9b1?qlt=60",
-            "desktop": "https://i1.adis.ws/i/jpl/desktop-top-and-bottom-banner-58cd2a600811ceb1f6146d273469d9b1?qlt=60"
+            "mobile": "https://i1.adis.ws/i/jpl/mobile-site-1_top_banner-1-2c92011f2c2b7b7ff379cd8e7daa729c?qlt=60",
+            "desktop": "https://i1.adis.ws/i/jpl/desktop_top_and_bottom_banner-73561c1241c45e89685ab4bca9ef4541?qlt=60"
+          },
+          {
+            "mobile": "https://i1.adis.ws/i/jpl/mobile-site-1_top_banner-1-0985f5b8b4188470f8cafff8fb070b48?qlt=60",
+            "desktop": "https://i1.adis.ws/i/jpl/desktop_top_and_bottom_banner-c7f3732c7dcb35a70b4eb54969b5f5b8?qlt=60"
+          },
+          {
+            "mobile": "https://i1.adis.ws/i/jpl/mobile-site-1_top_banner-2-75323a166a03172288d42e354c0e47c7?qlt=60",
+            "desktop": "https://i1.adis.ws/i/jpl/desktop_top_and_bottom_banner-b37d0e14f98f97c0d2605c5f9bb85596?qlt=60"
           }
         ],
         "text": {
