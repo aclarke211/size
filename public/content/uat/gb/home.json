@@ -69,6 +69,33 @@
           }
         ]
       }
+    },
+    {
+      "_component": "Timeline",
+      "_identifier": "timeline-elem",
+      "content": {
+        "hoverText": "Go To...",
+        "products": [
+          {
+            "text": "2008",
+            "img": "https://i1.adis.ws/t/jpl/jd_product_list?plu=jd_030664_b&qlt=80&w=363&h=363&v=1&fmt=webp",
+            "bgColor": "",
+            "productName": "Nike Air Force 1 Low"
+          },
+          {
+            "text": "2009",
+            "img": "https://i1.adis.ws/t/jpl/jd_product_list?plu=jd_030664_b&qlt=80&w=363&h=363&v=1&fmt=webp",
+            "bgColor": "",
+            "productName": "adidas Originals Superstar"
+          },
+          {
+            "text": "Podcasts",
+            "img": "",
+            "bgColor": "blue",
+            "productName": "Podcasts"
+          }
+        ]
+      }
     }
   ]
 }
