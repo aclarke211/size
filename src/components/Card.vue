@@ -1,8 +1,8 @@
 <template>
   <a class="card__container" :href="url">
-    <ImageModule :images="images"/>
-    <p class="card-title">{{ text }}</p>
-    <CTAsModule :ctas="ctas"/>
+    <ImageModule v-if="images" :images="images"/>
+    <p class="card-title" v-if="text">{{ text }}</p>
+    <CTAsModule v-if="ctas" :ctas="ctas"/>
   </a>
 </template>
 

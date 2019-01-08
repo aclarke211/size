@@ -1,5 +1,5 @@
 <template>
-  <div class="img__container">
+  <div class="img__container" v-if="images">
     <picture class="img__outer">
       <source :srcset="images.mobile" media="(max-width: 767px)">
       <img class="img" :src="images.desktop">
