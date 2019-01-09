@@ -1,0 +1,46 @@
+{
+  "years": {
+    "2008": [{
+      "name": "Nike Air Force 1 '07 LV8",
+      "variants": [{
+        "hexForIcon": "#ffffff",
+        "type": "White",
+        "price": "£59.99",
+        "description": "This is an example of a description for a product.",
+        "images": {
+          "main": {
+            "src": "https://i1.adis.ws/i/jpl/jd_104155_a?qlt=100&w=787&h=557&v=1&fmt=webp"
+          },
+          "sub": [{
+              "src": "https://i1.adis.ws/i/jpl/jd_104155_b?qlt=100&w=787&h=557&v=1&fmt=webp"
+            },
+            {
+              "src": "https://i1.adis.ws/i/jpl/jd_104155_a?qlt=100&w=787&h=557&v=1&fmt=webp"
+            }
+          ]
+        }
+      }]
+    }],
+    "2009": [{
+      "name": "adidas Originals Superstar",
+      "variants": [{
+        "hexForIcon": "#ffffff",
+        "type": "White",
+        "price": "£75.00",
+        "description": "Second example description.",
+        "images": {
+          "main": {
+            "src": "https://i1.adis.ws/i/jpl/jd_016655_a?qlt=100&w=787&h=557&v=1&fmt=webp"
+          },
+          "sub": [{
+              "src": "https://i1.adis.ws/i/jpl/jd_016655_b?qlt=100&w=787&h=557&v=1&fmt=webp"
+            },
+            {
+              "src": "https://i1.adis.ws/i/jpl/jd_016655_c?qlt=100&w=787&h=557&v=1&fmt=webp"
+            }
+          ]
+        }
+      }]
+    }]
+  }
+}
