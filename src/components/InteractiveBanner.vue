@@ -7,9 +7,7 @@
         :images="imageVariableInLoop"
       />
     </div>
-
     <p class="text" :style="inlineStyles">{{ text.value }}</p>
-
     <div class="toggle-btn" @click="toggleButton()">{{ button.text }}</div>
   </div>
 </template>
@@ -85,6 +83,18 @@ export default {
 
   .toggle-btn {
     margin-top: 1rem;
+    border-bottom: 2px solid black;
+    align-self: center;
+    padding-bottom: .5rem;
+    transition: all .5s;
+
+      @include desktop {
+        border-color: transparent;
+
+        &:hover {
+          border-color: black;
+        }
+      }
   }
 }
 </style>
