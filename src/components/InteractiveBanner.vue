@@ -87,6 +87,7 @@ export default {
     align-self: center;
     padding-bottom: .5rem;
     transition: all .5s;
+    cursor: pointer;
 
       @include desktop {
         border-color: transparent;
