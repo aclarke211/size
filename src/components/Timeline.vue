@@ -2,7 +2,7 @@
   <div class="timeline__container">
     <div class="timeline-product__container" v-for="(panel, key) in panels" :key="key"
     @click="changeRouteToShowProductDetails()">
-       <TimelineProduct :panelContent="panel" />
+       <TimelineProduct :panelContent="panel.panelContent" />
     </div>
   </div>
 </template>

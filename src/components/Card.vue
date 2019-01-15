@@ -1,9 +1,9 @@
 <template>
-  <a class="card__container" :href="url">
+  <div class="card__container">
     <ImageModule v-if="images" :images="images"/>
     <p class="card-title" v-if="text">{{ text }}</p>
     <CTAsModule v-if="ctas" :ctas="ctas"/>
-  </a>
+  </div>
 </template>
 
 <script>
@@ -17,7 +17,6 @@ export default {
     CTAsModule,
   },
   props: {
-    url: String,
     images: Object,
     text: String,
     ctas: Array,
