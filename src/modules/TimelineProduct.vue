@@ -1,6 +1,7 @@
 <template>
   <div class="timeline-product" :class="{'color-bg': panelContent.colorBG}">
-    <ImageModule v-if="panelContent.img" :images="imagesForImageModule" :altText="panelContent.text" />
+    <ImageModule v-if="panelContent.img" :images="imagesForImageModule"
+    :altText="panelContent.text" />
     <p class="text"> {{ panelContent.text }}</p>
   </div>
 </template>
