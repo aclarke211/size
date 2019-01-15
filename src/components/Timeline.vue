@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     changeRouteToShowProductDetails(panel) {
-      this.$router.push({ name: 'products', params: { products: panel.products, info: panel.panelContent, year: panel.panelContent.text } });
+      this.$router.push({ name: 'products', params: { year: panel.panelContent.text } });
     },
   },
 };

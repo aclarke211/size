@@ -1,7 +1,9 @@
 <template>
-  <div class="products__container" v-if="products">
+  <div class="products__container" v-if="content">
+    <h1 class="products-page__title">{{ $route.params.year }}</h1>
     <!-- <Card :images="" /> -->
-    <h1 v-for="(product, key) in products" :key="key">{{ info.text }}</h1>
+    <h2 class="products__subtitle">Products</h2>
+    <p v-for="(product, key) in products" :key="key">{{ product.name }}</p>
   </div>
 </template>
 
@@ -14,11 +16,17 @@ export default {
   //   Card,
   // },
   props: {
-    products: {
+    content: {
       type: [Object, Array],
       default: () => [],
     },
-    info: Object,
+  },
+  computed: {
+    products() {
+      const prods = this.content[this.$route.params.year].products;
+
+      return prods;
+    },
   },
 };
 </script>

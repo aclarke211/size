@@ -17,6 +17,10 @@ export default new Router({
       component: () => import(/* webpackChunkName: "home" */ './views/Home.vue'),
     },
     {
+      path: '/products',
+      redirect: '/home',
+    },
+    {
       path: '/products/:year',
       name: 'products',
       component: () => import(/* webpackChunkName: "products" */ './views/Products.vue'),

@@ -35,56 +35,14 @@
               "text": "2008",
               "img": "https://i1.adis.ws/t/jpl/jd_product_list?plu=jd_030664_b&qlt=80&w=363&h=363&v=1&fmt=webp",
               "colorBG": false
-            },
-            "products": [{
-              "name": "Nike Air Force 1 '07 LV8",
-              "variants": [{
-                "hexForIcon": "#ffffff",
-                "type": "White",
-                "price": "£59.99",
-                "description": "This is an example of a description for a product.",
-                "images": {
-                  "main": {
-                    "src": "https://i1.adis.ws/i/jpl/jd_104155_a?qlt=100&w=787&h=557&v=1&fmt=webp"
-                  },
-                  "sub": [{
-                      "src": "https://i1.adis.ws/i/jpl/jd_104155_b?qlt=100&w=787&h=557&v=1&fmt=webp"
-                    },
-                    {
-                      "src": "https://i1.adis.ws/i/jpl/jd_104155_a?qlt=100&w=787&h=557&v=1&fmt=webp"
-                    }
-                  ]
-                }
-              }]
-            }]
+            }
           },
           {
             "panelContent": {
               "text": "2009",
               "img": "https://i1.adis.ws/t/jpl/jd_product_list?plu=jd_016655_b&qlt=80&w=363&h=363&v=1&fmt=webp",
               "colorBG": false
-            },
-            "products": [{
-              "name": "adidas Originals Superstar",
-              "variants": [{
-                "hexForIcon": "#ffffff",
-                "type": "White",
-                "price": "£75.00",
-                "description": "Second example description.",
-                "images": {
-                  "main": {
-                    "src": "https://i1.adis.ws/i/jpl/jd_016655_a?qlt=100&w=787&h=557&v=1&fmt=webp"
-                  },
-                  "sub": [{
-                      "src": "https://i1.adis.ws/i/jpl/jd_016655_b?qlt=100&w=787&h=557&v=1&fmt=webp"
-                    },
-                    {
-                      "src": "https://i1.adis.ws/i/jpl/jd_016655_c?qlt=100&w=787&h=557&v=1&fmt=webp"
-                    }
-                  ]
-                }
-              }]
-            }]
+            }
           },
           {
             "panelContent": {
