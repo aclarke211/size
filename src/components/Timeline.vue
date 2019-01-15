@@ -1,8 +1,8 @@
 <template>
   <div class="timeline__container">
-    <div class="timeline-product__container" v-for="(product, key) in products" :key="key"
+    <div class="timeline-product__container" v-for="(panel, key) in panels" :key="key"
     @click="changeRouteToShowProductDetails()">
-       <TimelineProduct :productContent="product" />
+       <TimelineProduct :panelContent="panel" />
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
   },
   props: {
     hoverText: String,
-    products: Array,
+    panels: Array,
   },
   methods: {
     changeRouteToShowProductDetails() {

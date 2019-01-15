@@ -1,7 +1,7 @@
 <template>
-  <div class="timeline-product" :class="{'color-bg': productContent.colorBG}">
-    <ImageModule v-if="productContent.img" :images="imagesForImageModule" />
-    <p class="text"> {{ productContent.text }}</p>
+  <div class="timeline-product" :class="{'color-bg': panelContent.colorBG}">
+    <ImageModule v-if="panelContent.img" :images="imagesForImageModule" />
+    <p class="text"> {{ panelContent.text }}</p>
   </div>
 </template>
 
@@ -14,15 +14,14 @@ export default {
     ImageModule,
   },
   props: {
-    productContent: Object,
+    panelContent: Object,
   },
   computed: {
     imagesForImageModule() {
       const imgs = {
-        mobile: this.productContent.img,
-        desktop: this.productContent.img,
+        mobile: this.panelContent.img,
+        desktop: this.panelContent.img,
       };
-
       return imgs;
     },
   },

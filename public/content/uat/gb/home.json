@@ -32,7 +32,7 @@
       "_identifier": "timeline-elem",
       "content": {
         "hoverText": "Go To...",
-        "products": [
+        "panels": [
           {
             "text": "2008",
             "img": "https://i1.adis.ws/t/jpl/jd_product_list?plu=jd_030664_b&qlt=80&w=363&h=363&v=1&fmt=webp",
