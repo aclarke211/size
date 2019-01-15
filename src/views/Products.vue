@@ -1,5 +1,5 @@
 <template>
-  <div class="products__container" v-if="content">
+  <div class="products__container" v-if="this.content[this.$route.params.year]">
     <h1 class="products-page__title">{{ $route.params.year }}</h1>
     <!-- <Card :images="" /> -->
     <h2 class="products__subtitle">Products</h2>
@@ -23,9 +23,7 @@ export default {
   },
   computed: {
     products() {
-      const prods = this.content[this.$route.params.year].products;
-
-      return prods;
+      return this.content[this.$route.params.year].products;
     },
   },
 };
