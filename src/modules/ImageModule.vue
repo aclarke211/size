@@ -1,9 +1,10 @@
 <template>
-  <div class="img__container" v-if="images">
-    <picture class="img__outer">
+  <div class="img__container">
+    <picture class="img__outer" v-if="images">
       <source :srcset="images.mobile" media="(max-width: 767px)">
-      <img class="img" :src="images.desktop">
+      <img class="img" :src="images.desktop" :alt="altText">
     </picture>
+    <img v-if="image" class="img" :src="image" :alt="altText">
   </div>
 </template>
 
@@ -12,6 +13,8 @@ export default {
   name: 'ImageModule',
   props: {
     images: Object,
+    image: String,
+    altText: String,
   },
 };
 </script>
