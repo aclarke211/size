@@ -1,11 +1,9 @@
 {
-  "components": [
-    {
+  "components": [{
       "_component": "InteractiveBanner",
       "_identifier": "interactive-banner",
       "content": {
-        "images" : [
-          {
+        "images": [{
             "mobile": "https://i1.adis.ws/i/jpl/mobile-site-1_top_banner-1-2c92011f2c2b7b7ff379cd8e7daa729c?qlt=60",
             "desktop": "https://i1.adis.ws/i/jpl/desktop_top_and_bottom_banner-73561c1241c45e89685ab4bca9ef4541?qlt=60"
           },
@@ -32,8 +30,7 @@
       "_identifier": "timeline-elem",
       "content": {
         "hoverText": "Go To...",
-        "panels": [
-          {
+        "panels": [{
             "panelContent": {
               "text": "2008",
               "img": "https://i1.adis.ws/t/jpl/jd_product_list?plu=jd_030664_b&qlt=80&w=363&h=363&v=1&fmt=webp",
@@ -130,8 +127,7 @@
           "mobile": "https://via.placeholder.com/640x800/d9efff/?text=Mobile+(640x800px)",
           "desktop": "https://via.placeholder.com/1920x800/ffe9b2/?text=Desktop+(1920x800px)"
         },
-        "ctas": [
-          {
+        "ctas": [{
             "text": "New CTA",
             "url": "/testCTA"
           },

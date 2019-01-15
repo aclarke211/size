@@ -1,7 +1,7 @@
 <template>
   <div class="timeline__container">
     <div class="timeline-product__container" v-for="(panel, key) in panels" :key="key"
-    @click="changeRouteToShowProductDetails()">
+    @click="changeRouteToShowProductDetails(panel)">
        <TimelineProduct :panelContent="panel.panelContent" />
     </div>
   </div>
@@ -20,8 +20,8 @@ export default {
     panels: Array,
   },
   methods: {
-    changeRouteToShowProductDetails() {
-      this.$router.push('about');
+    changeRouteToShowProductDetails(panel) {
+      this.$router.push({ name: 'products', params: { products: panel.products, info: panel.panelContent, year: panel.panelContent.text } });
     },
   },
 };

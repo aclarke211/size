@@ -1,6 +1,7 @@
 <template>
-  <div class="products__container">
+  <div class="products__container" v-if="products">
     <!-- <Card :images="" /> -->
+    <h1 v-for="(product, key) in products" :key="key">{{ info.text }}</h1>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ export default {
       type: [Object, Array],
       default: () => [],
     },
+    info: Object,
   },
 };
 </script>
