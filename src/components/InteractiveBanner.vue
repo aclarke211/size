@@ -62,10 +62,11 @@ export default {
         width: 20rem;
 
       .img__outer {
-        padding-top: calc(640 / 640 * 100%);
+        padding-top: calc(78 / 467 * 100%);
+        background-color: transparent;
 
         @include tablet {
-          padding-top: calc(485 / 1160 * 100%);
+          padding-top: calc(78 / 467 * 100%);
         }
       }
     }
@@ -79,11 +80,13 @@ export default {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
+    color: white;
   }
 
   .toggle-btn {
+    color: white;
     margin-top: 1rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     align-self: center;
     padding-bottom: .5rem;
     transition: all .5s;
@@ -93,7 +96,7 @@ export default {
         border-color: transparent;
 
         &:hover {
-          border-color: black;
+          border-color: white;
         }
       }
   }
