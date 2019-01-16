@@ -1,6 +1,7 @@
 <template>
   <div class="card__container">
     <ImageModule v-if="images" :images="images"/>
+    <ImageModule v-if="image" :image="image" />
     <p class="card-title" v-if="text">{{ text }}</p>
     <CTAsModule v-if="ctas" :ctas="ctas"/>
   </div>
@@ -18,6 +19,7 @@ export default {
   },
   props: {
     images: Object,
+    image: String,
     text: String,
     ctas: Array,
   },
