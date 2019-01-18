@@ -37,6 +37,7 @@ export default {
   text-decoration: none;
   max-width: 1160px;
   transition: opacity .5s;
+  border: 2px solid #efefef;
 
   &:hover {
     opacity: .7;
