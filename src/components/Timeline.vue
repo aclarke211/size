@@ -35,8 +35,8 @@ export default {
     width: 100%;
 
     .timeline-product__container {
-      // width of each timeline product (can be changed to 0 0 50% for two on a line etc.)
-      flex: 0 0 33.33%;
+      // width of each timeline product (0 0 50% for two per row, 0 0 33.33% for three etc.)
+      flex: 0 0 20%;
       position: relative;
       display: block;
       cursor: pointer;
