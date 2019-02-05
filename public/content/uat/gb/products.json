@@ -42,6 +42,45 @@
             }
           ]
         }
+      },
+      {
+        "hexForIcon": "#6F734F",
+        "type": "Green",
+        "price": "£75.00",
+        "description": "Colour Varient for Shoe.",
+        "images": {
+          "main": {
+            "src": "https://i1.adis.ws/i/jpl/jd_089514_a?qlt=100&w=787&h=557&v=1&fmt=webp"
+          },
+          "sub": [{
+              "src": "https://i1.adis.ws/i/jpl/jd_089514_b?qlt=100&w=787&h=557&v=1&fmt=webp"
+            },
+            {
+              "src": "https://i1.adis.ws/i/jpl/jd_089514_c?qlt=100&w=787&h=557&v=1&fmt=webp"
+            }
+          ]
+        }
+      }]
+    },
+    {
+      "name": "Nike Air Force 1 '07 LV8",
+      "variants": [{
+        "hexForIcon": "#ffffff",
+        "type": "White",
+        "price": "£59.99",
+        "description": "This is an example of a description for a product.",
+        "images": {
+          "main": {
+            "src": "https://i1.adis.ws/i/jpl/jd_104155_a?qlt=100&w=787&h=557&v=1&fmt=webp"
+          },
+          "sub": [{
+              "src": "https://i1.adis.ws/i/jpl/jd_104155_b?qlt=100&w=787&h=557&v=1&fmt=webp"
+            },
+            {
+              "src": "https://i1.adis.ws/i/jpl/jd_104155_a?qlt=100&w=787&h=557&v=1&fmt=webp"
+            }
+          ]
+        }
       }]
     }]
   }
